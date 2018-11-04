@@ -1,12 +1,18 @@
 # dApp_Uber
 Decentralised uber for ethereum network
 
+#ABOUT dApps
+>> Unlike "web applications" in which user uses browser to connect to application running on a server having all the data,
+>> in "Decentralised Applications", all the users/nodes talk to each other in P2P Network manner, data is also shared over blockchain and even the code of application is shared among those peers.
+>> Public ledger represents data layer, and smart contract represents business logic.
+
+
 #index
 1. dependencies
 2. Truffle directory structure
 3. Client-side code flow
 4. Testing : why is it soo important
-
+5. Important concepts
 
 
 # 1. dependencies
@@ -29,3 +35,7 @@ Decentralised uber for ethereum network
 >> Migrations/1_initial_migraion.js : create transaction on Blockchain, aka migrate. Refreshes contract like we change state of Database
 >> ./truffle.js : main configuration file for truffle program
 >> src/  : all client side application logic
+
+
+# 5. Important concepts
+>> 
