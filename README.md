@@ -1,2 +1,31 @@
 # dApp_Uber
-Decentralised uber
+Decentralised uber for ethereum network
+
+#index
+1. dependencies
+2. Truffle directory structure
+3. Client-side code flow
+4. Testing : why is it soo important
+
+
+
+# 1. dependencies
+1. npm - for truffle
+2. Truffle framework 
+   - allows to create dApp on Ethereum network
+   - gives suite of tools to write smart contracts with Solidity (prog lang)
+   - provides platform for testing (very important)
+   - provides tools to deploy smart contract on Blockchain
+   - helps to develope client side application
+3. Genache : local in-memory Blockchain, for develoment purposes.
+4. Metamask
+   - A chrome extension which transforms "web browser" into "Blockchain browser"
+   - helps to connect and interact with deployed Blockchain
+5. Mocha : testing framework
+6. Chai  : assertion library
+
+# 2. Truffle directory structure
+>> contracts/Migration.sol : handles migrations whenever we deploy smartcontract on Blockchain
+>> Migrations/1_initial_migraion.js : create transaction on Blockchain, aka migrate. Refreshes contract like we change state of Database
+>> ./truffle.js : main configuration file for truffle program
+>> src/  : all client side application logic
