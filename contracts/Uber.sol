@@ -73,7 +73,7 @@ contract Uber
     }
 
 // general functions
-    function calcCost (string _src, string _dest) return (uint)
+    function calcCost (string _src, string _dest) returns (uint)
     {
     	return 100;
     }
