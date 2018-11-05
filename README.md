@@ -36,6 +36,15 @@ Decentralised uber for ethereum network
 >> ./truffle.js : main configuration file for truffle program
 >> src/  : all client side application logic
 
+# 3. Client-side code flow
+>> main flow is defined in src/js/app.js as follows
+>> 1. App init(); 	// Initializes this app when window loads
+>> 2. initWeb3();	// Connects App to Blockchain (first start Genache)
+>> 3. initContract();	// loads up contract into front end.
+>>>> 	1. loads "Uber.json" artifact
+>>>>	2. uses it to generate truffle contract
+>>>>	3. interact with contract through app
+>> 4. App.render();	// displays/renders on web browser
 
 # 5. Important concepts
 >> 
